@@ -31,5 +31,5 @@ Used a custom hook `useFilteredProducts` with `useMemo` to handle multi-criteria
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/himanshu-rawat0710/product-catalog-assignment.git
    cd product-catalog
