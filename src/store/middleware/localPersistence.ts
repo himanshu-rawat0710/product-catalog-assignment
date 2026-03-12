@@ -1,4 +1,4 @@
-// src/store/middleware/localPersistence.ts
+
 import { Middleware } from "@reduxjs/toolkit";
 
 export const persistenceMiddleware: Middleware = (store) => (next) => (action) => {

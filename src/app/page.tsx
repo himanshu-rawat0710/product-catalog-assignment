@@ -1,4 +1,4 @@
-// src/app/page.tsx
+
 import { fetchProducts } from "@/services/productService";
 import ProductCatalogClient from "@/components/catalog/ProductCatalogClient";
 

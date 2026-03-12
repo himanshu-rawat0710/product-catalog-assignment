@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Product Catalog | SDE-3 Assignment",
   description: "Advanced filtering and search system built with Next.js and Redux",
 };
-// src/app/layout.tsx
+
 import StoreProvider from "@/store/StoreProvider";
 
 export default function RootLayout({

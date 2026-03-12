@@ -1,4 +1,4 @@
-// src/store/slices/filterSlice.ts
+
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { FilterState, StockStatus } from "@/types/product";
 
