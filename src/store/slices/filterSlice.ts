@@ -49,7 +49,7 @@ const filterSlice = createSlice({
     resetFilters: (state) => {
       return { ...initialState, savedFilters: state.savedFilters };
     },
-    // For Requirement 3: Saved Filters [cite: 52]
+
     saveCurrentFilter: (state, action: PayloadAction<string>) => {
       const newFilter: SavedFilter = {
         id: crypto.randomUUID(),
