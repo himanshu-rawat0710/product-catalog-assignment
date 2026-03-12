@@ -44,9 +44,9 @@ export function CatalogHeader() {
       </div>
 
       <div className="flex items-center gap-2 w-full md:w-auto">
-        <span className="text-sm text-muted-foreground whitespace-nowrap">Sort by:</span>
+        <span className="text-sm font-medium text-slate-600 whitespace-nowrap">Sort by:</span>
         <Select value={sortBy} onValueChange={(v) => dispatch(setSortBy(v))}>
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger aria-label="Sort products by" className="w-[180px]">
             <SelectValue placeholder="Sort by" />
           </SelectTrigger>
           <SelectContent>

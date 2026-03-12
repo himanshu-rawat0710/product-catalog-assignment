@@ -79,7 +79,7 @@ export function FilterSidebar() {
                     <div className="space-y-2 w-full" >
                         <Label className="text-sm font-semibold">Category</Label>
                         <Select onValueChange={(v) => setValue("category", v)} value={watch("category")} >
-                            <SelectTrigger className="w-full">
+                            <SelectTrigger aria-label="Select product category" className="w-full">
                                 <SelectValue placeholder="Select Category" />
                             </SelectTrigger>
                             <SelectContent>
@@ -95,7 +95,7 @@ export function FilterSidebar() {
 
                     {/* Price Range */}
                     <div className="space-y-2">
-                        <Label className="text-sm font-semibold">Price Range</Label>
+                        <Label aria-label="price-range" className="text-sm font-semibold">Price Range</Label>
                         <div className="flex gap-2">
                             <Input type="number" placeholder="Min" {...register("minPrice", { valueAsNumber: true })} className="h-9" />
                             <Input type="number" placeholder="Max" {...register("maxPrice", { valueAsNumber: true })} className="h-9" />
@@ -107,7 +107,7 @@ export function FilterSidebar() {
                     <div className="space-y-2">
                         <Label className="text-sm font-semibold">Minimum Rating</Label>
                         <Select onValueChange={(v) => setValue("minRating", v)} value={watch("minRating")}>
-                            <SelectTrigger className="w-full">
+                            <SelectTrigger aria-label="Select minimum star rating" className="w-full">
                                 <SelectValue placeholder="Select Rating" />
                             </SelectTrigger>
                             <SelectContent>

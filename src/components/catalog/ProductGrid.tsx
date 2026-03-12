@@ -9,7 +9,7 @@ export function ProductGrid() {
   return (
     <div className="flex-1 space-y-4">
       <div className="flex justify-between items-center">
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-slate-600">
           Showing <span className="font-medium text-foreground">{visibleCount}</span> of{" "}
           <span className="font-medium text-foreground">{totalCount}</span> products
         </p>

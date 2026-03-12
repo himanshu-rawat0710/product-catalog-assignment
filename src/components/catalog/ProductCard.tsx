@@ -30,7 +30,7 @@ export function ProductCard({ product }: ProductCardProps) {
             </CardHeader>
             <CardContent className="flex-1 p-4 space-y-2">
                 <div className="flex justify-between items-start">
-                    <p className="text-xs font-semibold uppercase text-muted-foreground tracking-wider">
+                    <p className="text-xs font-bold uppercase text-slate-500 tracking-wider">
                         {product.category}
                     </p>
                     <div className="flex items-center gap-1 text-sm font-medium">
