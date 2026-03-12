@@ -17,7 +17,7 @@ export const persistenceMiddleware: Middleware = (store) => (next) => (action) =
     if (Array.isArray(savedFilters)) {
        // Using a clear, unique key
       localStorage.setItem("prod_catalog_saved_filters", JSON.stringify(savedFilters));
-      console.log("💾 Middleware: Persisted to localStorage", savedFilters);
+    //   console.log("💾 Middleware: Persisted to localStorage", savedFilters);
     }
   }
 
